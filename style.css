@@ -1,0 +1,33 @@
+body{
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: url(./img/pierres-zen-empilees-art-fond-sable-du-concept-equilibre_53876-110629.jpg) center/cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quote{
+    border: 2px solid rgb(48, 119, 0);
+    border-radius: 30px;
+   background: rgba(86, 196, 12, 0.267);
+   padding: 40px;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 500px;
+    color: white;
+    backdrop-filter: blur(5px);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.quote:hover{
+    transform: scale(1.2);
+}
+h3{
+    margin: 0;
+}
+h4{
+    margin-top: 20px;
+    text-align: right;
+    display: block;
+}
